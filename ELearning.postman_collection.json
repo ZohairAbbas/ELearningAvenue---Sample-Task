@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "c0284b5e-bafe-4348-81ce-a6342869ea92",
+		"name": "ELearning",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17469726"
+	},
+	"item": [
+		{
+			"name": "/api/getAccount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"account_id\": 443178\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/getAccount/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"getAccount",
+						""
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/getUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/getUser/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"getUser",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
